@@ -49,6 +49,7 @@ public class data_hiding {
         public double area(){
             return length*breadth;
         }
+        
         public boolean isSquare(){
             if(length == breadth){
                 return true;
