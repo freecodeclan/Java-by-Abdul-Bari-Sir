@@ -1,0 +1,1 @@
+1 -     DYNAMIC METHOD DISPATCH  -----   A Super/Parent class reference holding an object of Sub/Child class and in this the method of object will be called not the reference of Super Class. 
