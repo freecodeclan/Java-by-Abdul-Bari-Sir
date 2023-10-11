@@ -7,20 +7,20 @@ class Cylinder{
     public double height; 
 
     //-> Methods
-    public double area (){
-        return 2*Math.PI*radius*(radius+height);
+    public double lidArea (){
+        return Math.PI * radius * radius;
     }
 
     public double circumference (){
-        return (2*Math.PI*radius) * height;
+        return 2 * Math.PI * radius;
     }
 
     public double volume (){
-        return Math.PI * radius * radius * height;
+        return lidArea() * height;
     }
 
     public double totalSurfaceArea (){
-        return 2*Math.PI * (height + radius);
+        return 2 * lidArea() + circumference() * height;
     }
 
 }
@@ -32,7 +32,7 @@ public class classCylinder {
         c.radius = 2;
         c.height = 6;
 
-        System.out.println("Area of cylinder is: " + c.area());
+        System.out.println("Area of cylinder is: " + c.lidArea());
         System.out.println("TotalSurfaceArea of cylinder is: " + c.totalSurfaceArea());
         System.out.println("Volume of cylinder is: " + c.volume());
         System.out.println("Cirumference of cylinder is: " + c.circumference());
