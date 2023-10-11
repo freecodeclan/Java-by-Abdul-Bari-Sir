@@ -29,6 +29,8 @@ public class classCylinder {
         
         //--> Creating object of cylinder 
         Cylinder c = new Cylinder();
+        
+        //-> Initilising properties
         c.radius = 2;
         c.height = 6;
 
