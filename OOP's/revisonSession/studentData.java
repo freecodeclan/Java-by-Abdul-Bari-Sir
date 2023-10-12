@@ -1,6 +1,5 @@
+/* CREATING STUDENT CLASS */
 package revisonSession;
-
-
 class Student{
     public int rollNo;
     public String name;

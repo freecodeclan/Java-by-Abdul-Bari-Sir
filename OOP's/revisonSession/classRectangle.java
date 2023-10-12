@@ -1,3 +1,4 @@
+/* CREATING RECTANGLE CLASS */
 package revisonSession;
 
 class Rectangle{
