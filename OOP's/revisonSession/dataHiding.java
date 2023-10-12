@@ -2,6 +2,8 @@
 package revisonSession;
 
 class Rectangle1{
+    
+    //--> Properties
     private int length;
     private int breadth;
 
@@ -29,13 +31,14 @@ class Rectangle1{
         }
     }
 
+    //--> Methods
     public int area(){
         return length * breadth;
     }
     public int perimeter(){
         return 2 * (length + breadth);
     }
-}
+} 
 
 public class dataHiding {
     public static void main(String[] args) {
