@@ -25,4 +25,4 @@ public class abstractExample {
     s.meth1();
     s.meth2();
    }
- }
+}
