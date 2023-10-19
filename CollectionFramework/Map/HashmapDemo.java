@@ -22,6 +22,23 @@ public class HashmapDemo {
         System.out.println(mp);
         System.out.println(mp.keySet());       //-- Gives all the keys present in map
         System.out.println(mp.entrySet());      //-- Give all the entries with key and values 
+        System.out.println(mp.putIfAbsent("Manna", 28));
+
+        //-- For each loop 
+        for(String key : mp.keySet()){
+            System.out.printf("Age of %s is %d\n ", key, mp.get(key));
+        }
+        System.out.println();
+
+        //--> Iterating over .entrySet()
+        for(Map.Entry<String, Integer> e : mp.entrySet()){
+            System.out.printf("Age of %s is %d\n ", e.getKey(), e.getValue());
+        }
+
+        System.out.println();
+        for(var e : mp.entrySet()){
+            System.out.printf("Age of %s is %d\n ", e.getKey(), e.getValue());
+        }
 
     }
     public static void main(String[] args) {
