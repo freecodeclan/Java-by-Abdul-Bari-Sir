@@ -1,3 +1,10 @@
+/* Question --  Create a HashMap using Java HashMap class to styore the following pairs(Person,Age) and display them 
+ * Akash 21
+ * Harsh 31
+ * Juhi 28
+ * Vandana 27
+ * Gaurav 33 
+*/
 package Map;
 
 import java.util.*;
